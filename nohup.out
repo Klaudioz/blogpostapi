@@ -1,0 +1,117 @@
+Server running at http://127.0.0.1:1337/
+Server running at http://127.0.0.1:31337/
+Submit a post using /post and get all the posts using /posts to http://localhost:31337
+ReferenceError: db is not defined
+    at /home/Klaudioz/workspace/blogpostapi/blog_api.js:24:5
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/Klaudioz/workspace/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/Klaudioz/workspace/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/Klaudioz/workspace/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/Klaudioz/workspace/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/Klaudioz/workspace/node_modules/express/lib/router/index.js:271:10)
+    at expressInit (/home/Klaudioz/workspace/node_modules/express/lib/middleware/init.js:33:5)
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+Submit a post using /post and get all the posts using /posts to http://localhost:31337
+ReferenceError: db is not defined
+    at /home/Klaudioz/workspace/blogpostapi/blog_api.js:24:5
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/Klaudioz/workspace/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/Klaudioz/workspace/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/Klaudioz/workspace/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/Klaudioz/workspace/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/Klaudioz/workspace/node_modules/express/lib/router/index.js:271:10)
+    at expressInit (/home/Klaudioz/workspace/node_modules/express/lib/middleware/init.js:33:5)
+    at Layer.handle [as handle_request] (/home/Klaudioz/workspace/node_modules/express/lib/router/layer.js:95:5)
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:22
+		console.log("Submit a post using /post and get all the posts using /posts to
+		            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Unexpected token ILLEGAL
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:22
+		console.log("Submit a post using /post and get all the posts using /posts to
+		            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Unexpected token ILLEGAL
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:22
+		console.log("Submit a post using /post and get all the posts using /posts to
+		            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Unexpected token ILLEGAL
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+Submit a post using /post and get all the posts using /posts to
+Submit a post using /post and get all the posts using /posts to
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:27
+				if(rows.length != 0){
+				       ^
+TypeError: Cannot read property 'length' of undefined
+    at Statement.<anonymous> (/home/Klaudioz/workspace/blogpostapi/blog_api.js:27:12)
+Submit a post using /post and get all the posts using /posts to
+Submit a post using /post and get all the posts using /posts to
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:27
+				if(rows.length != 0){
+				       ^
+TypeError: Cannot read property 'length' of undefined
+    at Statement.<anonymous> (/home/Klaudioz/workspace/blogpostapi/blog_api.js:27:12)
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:7
+api.use(bodyParser.json());
+        ^
+ReferenceError: bodyParser is not defined
+    at Object.<anonymous> (/home/Klaudioz/workspace/blogpostapi/blog_api.js:7:9)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'body-parser'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/Klaudioz/workspace/blogpostapi/blog_api.js:7:16)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+/home/Klaudioz/workspace/blogpostapi/blog_api.js:24
+		app.get('/posts', function (req, res) {
+		^
+ReferenceError: app is not defined
+    at /home/Klaudioz/workspace/blogpostapi/blog_api.js:24:3
+    at Object.cb [as oncomplete] (fs.js:168:19)
+Submit a post using /post and get all the posts using /posts to
+Submit a post using /post and get all the posts using /posts to
+Submit a post using /post and get all the posts using /posts to
+Submit a post using /post and get all the posts using /posts to
